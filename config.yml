@@ -25,7 +25,7 @@ params:
   disableThemeToggle: true
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -50,29 +50,15 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "codeinu.it"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: I do things
+    Title: "Hi, I’m Lucas *aka* codeinu 🐕"
+    Content: I work as a backend developer and I do stuff related to IT, dogs or maybe something else related to my life. It’s probably old school but you will find every finished (or discontinued) projects here.
+          
 
   socialIcons:
     - name: twitter
@@ -80,17 +66,17 @@ params:
     - name: github
       url: "https://github.com/codeinuit"
     - name: mastodon
-      url: "https://github.com/codeinuit"
+      url: "https://hostux.social/@codeinu"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+#  editPost:
+#    URL: "https://github.com/<path_to_repo>/content"
+#    Text: "Suggest Changes" # edit text
+#    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -103,12 +89,21 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-# menu:
-#   main:
-#     - identifier: categories
-#       name: categories
-#       url: /categories/
-#       weight: 10
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+#    - name: About
+#      url: /about
+#      weight: 20
+    - name: Blog
+      url: /blog
+      weight: 30
+#    - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 10
 #     - identifier: tags
 #       name: tags
 #       url: /tags/
