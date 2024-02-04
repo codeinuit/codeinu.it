@@ -42,11 +42,11 @@ It seems scary but actually it’s the easiest part, and it does not even requie
 
 Personnaly I bought this IPS panel with FHD from Aliexpress (https://fr.aliexpress.com/item/1005003361028659.html?spm=a2g0o.order_list.order_list_main.5.29535e5b8T5lKT&gatewayAdapt=glo2fra)
 
-![Laptop topless](/lenovo/lenovo-topless.jpg)
+![Laptop topless](/lenovo/lenovo-topless_compress.jpg)
 
 Once you removed the bezels, the panel shouldn’t be attached, so you can flip it easily. You must disconnect the connector by pulling the adhesive and you can remove and replace with the new panel after.
 
-![Laptop topless](/lenovo/screen-connector.png)
+![Laptop topless](/lenovo/screen-connector_compress.png)
 
 Once the new panel connected, you can place the new panel inside, and re-attach the bezels starting below, and it should be OK. 
 
@@ -57,11 +57,11 @@ Flip the laptop and check every screws. The screws are attached to the backplate
 Remove the SIM tray located on the left side using a SIM tool or anything thing before doing anything here.
 
 
-![Laptop screws](/lenovo/backplate.png)
+![Laptop screws](/lenovo/backplate_compress.png)
 
 Once ready, unscrew the backplate, and open it by sliding a plastic opener tool (or any variant) all along the side.
 
-![Laptop inside without backplate](/lenovo/inside.jpg)
+![Laptop inside without backplate](/lenovo/inside_compress.jpg)
 
 I only drew on part I upgraded, but there is still room for other improvements, like adding a 2nd battery or adding a WAN card.
 

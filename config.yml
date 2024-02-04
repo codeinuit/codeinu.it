@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: codeinu.it
-  description: "ExampleSite description"
+  description: "inu's website"
   keywords: [Blog, Portfolio, PaperMod]
   author: codeinu
   # author: ["Me", "You"] # multiple authors
@@ -68,6 +68,8 @@ params:
       url: "https://github.com/codeinuit"
     - name: mastodon
       url: "https://hostux.social/@codeinu"
+    - name: bsky
+      url: "https://bsky.app/profile/codeinu.bsky.social"
 
   cover:
     hidden: true # hide everywhere but not in structured data
